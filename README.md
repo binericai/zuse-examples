@@ -1,5 +1,9 @@
 # Zuse examples
 
+> **1 million customer service decisions: $16 with Zuse 9B vs $1,322 with Claude Sonnet 5.5.**
+> Tested on 900 real customer calls in 9 languages: 93.0% right against 95.6%.
+> [How we measured it](#how-it-compares)
+
 Runnable examples for **Zuse**, Bineric's decision model. Zuse reads a text and answers
 fixed-choice questions about it: pick one of these options, yes or no, or a point on a scale.
 Every answer comes with a probability for each option. It writes no text, so its answer is
