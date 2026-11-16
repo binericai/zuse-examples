@@ -61,6 +61,9 @@ Several questions about the same text cost the text's tokens once.
 Docs: [bineric.com/platform/docs#zuse](https://bineric.com/platform/docs#zuse) ·
 Model page: [bineric.com/zuse](https://bineric.com/zuse)
 
+These examples use the hosted API. To run Zuse in your own AWS account instead, see
+[binericai/models](https://github.com/binericai/models/tree/main/zuse).
+
 ## Two sizes
 
 | Model | Price per million input tokens | Best for |
