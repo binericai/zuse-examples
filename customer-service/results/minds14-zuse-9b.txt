@@ -1,0 +1,33 @@
+MINDS-14: 900 calls in 9 languages, 14 intents
+
+language   calls  Zuse right
+cs           100       95.0%
+de           100       95.0%
+en           100       97.0%
+es           100       94.0%
+fr           100       89.0%
+it           100       97.0%
+nl           100       89.0%
+pl           100       91.0%
+pt           100       90.0%
+all          900       93.0%
+
+How sure Zuse was, and how often it was right
+Zuse said      calls   right
+0%-50%            40   42.5%
+50%-70%           50   68.0%
+70%-90%           84   81.0%
+90%-97%          172   97.7%
+97%-99%          219   99.5%
+99%-100%         335   99.1%
+
+If you route automatically only when Zuse is sure, and send the rest to a person
+at least    automatic   right   mistakes per 1,000 calls
+50%             95.6%   95.3%                         44
+80%             86.9%   98.1%                         17
+90%             80.7%   98.9%                          9
+95%             69.3%   99.2%                          6
+99%             37.2%   99.1%                          3
+
+                      right  at 90% sure: automatic, right  per 1,000 calls  batch API  median time
+Zuse (zuse-9b)        93.0%                     81%, 98.9%           $0.016                  0.91 s

@@ -1,0 +1,42 @@
+MINDS-14: 900 calls in 9 languages, 14 intents
+
+language   calls  Zuse right
+cs           100       95.0%
+de           100       94.0%
+en           100       97.0%
+es           100       96.0%
+fr           100       90.0%
+it           100       98.0%
+nl           100       90.0%
+pl           100       88.0%
+pt           100       87.0%
+all          900       92.8%
+
+How sure Zuse was, and how often it was right
+Zuse said      calls   right
+0%-50%            46   23.9%
+50%-70%           54   70.4%
+70%-90%          117   92.3%
+90%-97%          194   99.0%
+97%-99%          176   99.4%
+99%-100%         313   99.4%
+
+If you route automatically only when Zuse is sure, and send the rest to a person
+at least    automatic   right   mistakes per 1,000 calls
+50%             94.9%   96.5%                         33
+80%             84.3%   99.2%                          7
+90%             75.9%   99.3%                          6
+95%             65.1%   99.5%                          3
+99%             34.8%   99.4%                          2
+
+Claude Sonnet 5.5, by how sure it said it was
+it said        calls   right
+0%-70%            90   62.2%
+70%-90%          245   98.8%
+90%-97%          314   99.4%
+97%-99%          251   99.6%
+
+                      right  at 90% sure: automatic, right  per 1,000 calls  batch API  median time
+Zuse (zuse-27b)       92.8%                     76%, 99.3%           $0.098                  0.86 s
+Claude Sonnet 5.5     95.6%                     63%, 99.5%           $1.322     $0.661       0.53 s
+Claude: thinking off, structured output, Anthropic list prices. Its 'how sure' is what it says, not a probability.

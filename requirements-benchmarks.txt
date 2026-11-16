@@ -1,0 +1,6 @@
+# Only for complaints/ and the comparisons with Claude. The customer-service examples need just requirements.txt.
+-r requirements.txt
+pyarrow>=14                 # complaints: reads the CFPB complaint dataset
+fsspec>=2023.1              # complaints: downloads only the parts it needs
+aiohttp>=3.8                # used by fsspec for HTTP
+anthropic[bedrock]>=0.100   # --claude and --bedrock: the comparison with Claude Sonnet

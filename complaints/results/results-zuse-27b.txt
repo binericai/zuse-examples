@@ -1,0 +1,17 @@
+270 real complaints from the CFPB database, 30 for each of 9 products
+
+Zuse, right per product
+  Credit reports, credit scores or credit repair servi    100%
+  Debt collection: a collector or agency chasing a deb     77%
+  A checking or savings account                            83%
+  A credit card or prepaid card                            77%
+  A mortgage                                               87%
+  A student loan                                           90%
+  A car or other vehicle loan or lease                     70%
+  A payday loan, title loan or personal loan               43%
+  Money transfers, virtual currency or money services      80%
+
+                      right  at 90% sure: automatic, right  tokens in/out  per million  batch API  median time
+Zuse (zuse-27b)       78.5%                     53%, 94.4%        405 / 0         $304                  1.73 s
+Claude Sonnet 5.5     80.4%                     58%, 93.6%       940 / 17       $2,046     $1,023       0.53 s
+Claude: thinking off, structured output, Anthropic list prices. Its 'how sure' is what it says, not a probability.
